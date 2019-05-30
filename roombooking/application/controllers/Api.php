@@ -438,7 +438,7 @@ class Api extends CI_Controller {
         //$email = $this->input->post('email');        
         $password = $_POST["password"];
         $email = $_POST["email"];
-        
+        $toke =  $_POST["token"];
         
         $row = $this->db->get_where('usertable', array('email'=>$email, 'password'=>$password))->row();
         if($row == null || $row == ""){            

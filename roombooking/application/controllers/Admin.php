@@ -41,8 +41,7 @@ class Admin extends CI_Controller {
         }else{
             redirect(base_url(), 'refresh');
         }
-
-        $page_data['page_name'] = 'dashboard';
+        $page_data['page_name'] = 'dashboard page';
         $page_data['page_title'] = get_phrase('admin_dashboard');
         $this->load->view('index', $page_data);
 

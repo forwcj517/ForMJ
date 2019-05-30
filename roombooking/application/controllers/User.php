@@ -19,7 +19,7 @@ class User extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 
-    public $apiKey;// = "e8057c57e6844309b8b511012e979c58";
+    public $apiKey  = "e8057c57e6844309b8b511012e979c58234123423";
     
     
     function __construct() {
