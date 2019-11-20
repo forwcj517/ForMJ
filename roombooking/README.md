@@ -30,3 +30,11 @@ This README would normally document whatever steps are necessary to get your app
 * this is new repor
 * Last Updated Fanfransisco 0.4 Robust.
 * Check the Updated Date.
+
+
+
+# Upload Info 
+* Upload Video file. 
+* Update Robust Repo 
+* File Size 0.1 kbye.
+
