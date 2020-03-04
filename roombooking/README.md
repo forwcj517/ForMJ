@@ -17,24 +17,10 @@ This README would normally document whatever steps are necessary to get your app
 * How to run tests
 * Deployment instructions
 
-### Contribution guidelines ###
+# Progressing ..
+* Updated Repo weekly.
+* Version 0.1 
+* Gavin.... Reporsitory..
+* Updated Date : 23th.
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
-* this is new repor
-* Last Updated Fanfransisco 0.4 Robust.
-* Check the Updated Date.
-
-
-
-# Upload Info 
-* Upload Video file. 
-* Update Robust Repo 
-* File Size 0.1 kbye.
 
