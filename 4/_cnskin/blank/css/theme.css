@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* theme setting
+--------------------------------------------------------- */
+
+/* ---------- pageparts ---------- */
+/* :bindbox */
+#bindbox	{ min-width:432px;}
+#bindbox .tl, #bindbox .tr, #bindbox .tc, #bindbox .bl, #bindbox .br, #bindbox .bc	{ height:32px;}
+#bindbox .tl, #bindbox .tr, #bindbox .bl, #bindbox .br	{ width:34px; background-image:url(src/blockskin/share/bindbox_cnr.png);}
+#bindbox .tc, #bindbox .bc	{ margin:0 34px; background-image:url(src/blockskin/share/bindbox_h.png);}
+#bindbox .ml, #bindbox .mr	{ width:34px; background-image:url(src/blockskin/share/bindbox_v.png);}
+#bindbox .mc	{ margin:0 18px; background-image:none; background-color:#FFF;}
+* html #bindbox .tl, * html #bindbox .tr, * html #bindbox .tc, * html #bindbox .bl, * html #bindbox .br, * html #bindbox .bc	{ height:32px;}
+* html #bindbox .tl, * html #bindbox .tr, * html #bindbox .bl, * html #bindbox .br, * html #bindbox .tc, * html #bindbox .bc, * html #bindbox .ml, * html #bindbox .mr	{ background-image:none;}
+* html #bindbox .mc	{ padding:16px 0 8px 0; background-image:none; background-color:#F7F7F7;}
+#bindbox_image	{ padding:0 0 8px 0;}
+#bindbox_control    { padding:0 16px;}
+#bindbox_comment	{ padding:0 16px; font-size:90%; color:#666;}
+#bindbox_line	{ height:16px; background-image:url(src/blockskin/share/bindbox_line.gif);}
+#bindbox_num	{ padding-top:5px; font-size:100%; color:#666;}
+#bindbox_back,#bindbox_next	{ width:60px; height:30px;}
+#bindbox_back	{ background-image:url(src/blockskin/share/bindbox_back.gif);}
+#bindbox_back:hover	{ background-image:url(src/blockskin/share/bindbox_back_ov.gif);}
+#bindbox_next	{ background-image:url(src/blockskin/share/bindbox_next.gif);}
+#bindbox_next:hover	{ background-image:url(src/blockskin/share/bindbox_next_ov.gif);}
+#bindbox_close	{ height:30px; background-image:url(src/blockskin/share/bindbox_close.gif);}
+#bindbox_close:hover	{ background-image:url(src/blockskin/share/bindbox_close_ov.gif);}
+#bindbox_note	{ display:block; width:375px; height:25px; margin:0 auto; background:url(src/blockskin/share/bindbox_note.gif) no-repeat left 6px;}

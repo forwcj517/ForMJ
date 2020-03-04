@@ -1,0 +1,37 @@
+a.btn-primary {
+  display: inline-block !important;
+  background: transparent !important;
+  color: #2980b9 !important;
+  border: 2px solid #2980b9 !important;
+  border-radius: 6px !important;
+  min-width: 4em !important;
+  max-width: 100% !important;
+  font-size: 100% !important;
+  line-height: 1.8 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  padding: 1em !important;
+  transition: all 0.2s !important;
+}
+a.btn-primary:visited {
+  background: transparent !important;
+  color: #2980b9 !important;
+  border: 2px solid #2980b9 !important;
+  text-decoration: none !important;
+}
+a.btn-primary:active {
+  background: #3498db !important;
+  color: #ffffff !important;
+  border: 2px solid #3498db !important;
+  text-decoration: none !important;
+}
+a.btn-primary:hover {
+  background: #3498db !important;
+  color: #ffffff !important;
+  border: 2px solid #3498db !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+
+

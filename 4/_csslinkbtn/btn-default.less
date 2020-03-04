@@ -1,0 +1,44 @@
+// Declaring variables
+@background-color:transparent;
+@border:#666666;
+@color:#666666;
+@background-color-hover:#666666;
+@border-hover:#666666;
+@color-hover:#ffffff;
+
+// Using variables
+a.btn-default{
+	display: inline-block !important;
+	background: @background-color !important;
+	color: @color !important;
+	border: 2px solid @border !important;
+	border-radius: 6px !important;
+	min-width: 4em !important;
+	max-width: 100% !important;
+	font-size: 100% !important;
+	line-height: 1.8 !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	cursor:pointer !important;
+	padding: 1em !important;
+	transition: all 0.2s !important;
+}
+a.btn-default:visited{
+	background: @background-color !important;
+	color: @color !important;
+	border: 2px solid @border !important;
+	text-decoration: none !important;
+}
+a.btn-default:active{
+	background: @background-color-hover !important;
+	color: @color-hover !important;
+	border: 2px solid @border-hover !important;
+	text-decoration: none !important;
+}
+a.btn-default:hover{
+	background: @background-color-hover !important;
+	color: @color-hover !important;
+	border: 2px solid @border-hover !important;
+	text-decoration: none !important;
+	opacity: 1 !important;
+}

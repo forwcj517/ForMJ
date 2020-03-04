@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.cssskin-keiyakujyouhou .column.-column1 {
+  width: 24%;
+  font-weight: bold;
+}
+
+.cssskin-keiyakujyouhou .column.-column2 {
+  width: 24%;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.cssskin-keiyakujyouhou .column.-column3 {
+  width: 24%;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.cssskin-keiyakujyouhou .column.-column4 {
+  width: 24%;
+  font-weight: bold;
+}
+

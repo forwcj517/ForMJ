@@ -1,0 +1,73 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M286.165 225.82l511.993 511.993-60.339 60.339-511.993-511.993 60.339-60.339z",
+					"M737.835 225.82l60.339 60.339-511.993 511.993-60.339-60.339 511.993-511.993z"
+				],
+				"attrs": [
+					{},
+					{}
+				],
+				"isMulticolor": false,
+				"tags": [
+					"BiND_UI_icons_editor-39"
+				],
+				"grid": 0
+			},
+			"attrs": [
+				{},
+				{}
+			],
+			"properties": {
+				"order": 1,
+				"id": 136,
+				"prevSize": 32,
+				"code": 58979,
+				"name": "close"
+			},
+			"setIdx": 0,
+			"setId": 2,
+			"iconIdx": 139
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "digitalstage"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "digitalstage",
+				"majorVersion": 1,
+				"minorVersion": 0
+			},
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"embed": false,
+			"showSelector": false,
+			"showMetrics": false,
+			"showMetadata": false,
+			"showVersion": false
+		},
+		"imagePref": {
+			"prefix": "icon-",
+			"png": true,
+			"useClassSelector": true,
+			"color": 4473924,
+			"bgColor": 16777215
+		},
+		"historySize": 100,
+		"showCodes": false
+	}
+}

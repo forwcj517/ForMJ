@@ -1,0 +1,131 @@
+/* common.css - additional settings　
+  - Internet Explorer 8 (XP)
+--------------------------------------------------------- */
+body	{ font-size:12px; font-family:"ＭＳ Ｐゴシック","MS PGOTHIC",sans-serif;}
+span.img span	{ font-size:90%; line-height:1.2;}
+h2	{ font-size:175%; line-height:1.3;}
+h3	{ font-size:135%; line-height:1.3;}
+h4	{ font-size:105%; line-height:1.3;}
+p	{ font-size:100%; line-height:1.3;}
+p.lead { font-size:110%; font-weight:bold; line-height:1.3;}
+p.note,p.affix	{ font-size:95%; line-height:1.3;}
+blockquote	{ font-size:115%; line-height:1.3;}
+address	{ font-size:95%; line-height:1.2;}
+li	{ font-size:100%; line-height:1.6;}
+th,td	{ font-size:100%; line-height:1.2;}
+dt	{ font-size:100%; line-height:1.4;}
+dd	{ font-size:100%; line-height:1.4;}
+
+.lhn h2,.lhn h3,.lhn h4	{ line-height:1.1;}
+.lhn p.lead,.lhn th,.lhn td	{ line-height:1.2;}
+.lhn p,.lhn p.note,.lhn p.affix,.lhn blockquote,.lhn li	{ line-height:1.3;}
+.lhw h2,.lhw h3,.lhw h4	{ line-height:1.9;}
+.lhw p.lead,.lhw th,.lhw td	{ line-height:2.0;}
+.lhw p,.lhw p.note,.lhw p.affix,.lhw blockquote,.lhw li	{ line-height:2.1;}
+
+#area-header span.img span	{ font-size:90%; line-height:1.2;}
+#area-header h2	{ font-size:160%; line-height:1.3;}
+#area-header h3	{ font-size:90%; line-height:1.4;}
+#area-header h4	{ font-size:90%; line-height:1.5;}
+#area-header p	{ font-size:90%; line-height:1.5;}
+#area-header p.lead	{ font-size:90%;}
+#area-header p.note,#area-header p.affix	{ font-size:90%;}
+#area-header blockquote	{ font-size:90%; line-height:1.5;}
+#area-header address	{ font-size:90%;}
+#area-header li	{ font-size:90%; line-height:1.5;}
+#area-header th,#area-header td	{ font-size:90%; line-height:1.4;}
+
+#area-header .lhn h2,#area-header .lhn h3,#area-header .lhn h4	{ line-height:1.1;}
+#area-header .lhn p.lead,#area-header .lhn th,#area-header .lhn td	{ line-height:1.2;}
+#area-header .lhn p,#area-header .lhn p.note,#area-header .lhn p.affix,#area-header .lhn blockquote,#area-header .lhn li	{ line-height:1.3;}
+#area-header .lhw h2,#area-header .lhw h3,#area-header .lhw h4	{ line-height:1.5;}
+#area-header .lhw p.lead,#area-header .lhw th,#area-header .lhw td	{ line-height:1.6;}
+#area-header .lhw p,#area-header .lhw p.note,#area-header .lhw p.affix,#area-header .lhw blockquote,#area-header .lhw li	{ line-height:1.7;}
+
+.side-group span.img span	{ font-size:95%; line-height:1.2;}
+.side-group h2	{ font-size:120%; line-height:1.3;}
+.side-group h3	{ font-size:95%; line-height:1.4;}
+.side-group h4	{ font-size:95%; line-height:1.5;}
+.side-group p	{ font-size:95%; line-height:1.5;}
+.side-group p.lead	{ font-size:95%;}
+.side-group p.note,.side-group p.affix	{ font-size:95%;}
+.side-group blockquote	{ font-size:95%; line-height:1.5;}
+.side-group address	{ font-size:95%;}
+.side-group li	{ font-size:95%; line-height:1.5;}
+.side-group th,.side-group td	{ font-size:95%; line-height:1.4;}
+
+.side-group .lhn h2,.side-group .lhn h3,.side-group .lhn h4	{ line-height:1.1;}
+.side-group .lhn p.lead,.side-group .lhn th,.side-group .lhn td	{ line-height:1.2;}
+.side-group .lhn p,.side-group .lhn p.note,.side-group .lhn p.affix,.side-group .lhn blockquote,.side-group .lhn li	{ line-height:1.3;}
+.side-group .lhw h2,.side-group .lhw h3,.side-group .lhw h4	{ line-height:1.5;}
+.side-group .lhw p.lead,.side-group .lhw th,.side-group .lhw td	{ line-height:1.6;}
+.side-group .lhw p,.side-group .lhw p.note,.side-group .lhw p.affix,.side-group .lhw blockquote,.side-group .lhw li	{ line-height:1.7;}
+
+#area-footer span.img span	{ font-size:90%; line-height:1.2;}
+#area-footer h2	{ font-size:120%; line-height:1.3;}
+#area-footer h3	{ font-size:90%; line-height:1.4;}
+#area-footer h4	{ font-size:90%; line-height:1.5;}
+#area-footer p	{ font-size:90%; line-height:1.5;}
+#area-footer p.lead	{ font-size:90%;}
+#area-footer p.note,#area-footer p.affix	{ font-size:90%;}
+#area-footer blockquote	{ font-size:90%; line-height:1.5;}
+#area-footer address	{ font-size:90%;}
+#area-footer li	{ font-size:90%; line-height:1.5;}
+#area-footer th,#area-footer td	{ font-size:90%; line-height:1.4;}
+
+#area-footer .lhn h2,#area-footer .lhn h3,#area-footer .lhn h4	{ line-height:1.1;}
+#area-footer .lhn p.lead,#area-footer .lhn th,#area-footer .lhn td	{ line-height:1.2;}
+#area-footer .lhn p,#area-footer .lhn p.note,#area-footer .lhn p.affix,#area-footer .lhn blockquote,#area-footer .lhn li	{ line-height:1.3;}
+#area-footer .lhw h2,#area-footer .lhw h3,#area-footer .lhw h4	{ line-height:1.5;}
+#area-footer .lhw p.lead,#area-footer .lhw th,#area-footer .lhw td	{ line-height:1.6;}
+#area-footer .lhw p,#area-footer .lhw p.note,#area-footer .lhw p.affix,#area-footer .lhw blockquote,#area-footer .lhw li	{ line-height:1.7;}
+
+#page-title	{ font-size:16px;}
+#page-title span	{ font-size:10px;}
+
+.menu-a a,.menu-a .nolink	{ font-size:110%;}
+.menu-b a,.menu-b .nolink	{ font-size:110%;}
+.menu-c a,.menu-c .nolink	{ font-size:110%;}
+.menu-d a,.menu-d .nolink	{ font-size:110%;}
+.menu-e a,.menu-e .nolink	{ font-size:110%;}
+
+.bread-crumb1,.bread-crumb2,.bread-crumb3	{ font-size:90%;}
+
+
+/* app setting ------------------------------------------ */
+.area:after,
+.amc:after,
+.block:after,
+.bmc:after,
+.column:after,
+.box:after,
+.pocket:after,
+.xmc:after,
+.mc:after,
+.balloon:after,
+.menuh ul:after,
+.menu-a:after,
+.menu-b:after,
+.menu-c:after,
+.menu-d:after,
+.menu-e:after,
+.mbox:after,
+dt:after,
+dd:after {
+	clear:both;
+	content:"";
+	display:block;
+	visibility:hidden;
+	height:0;
+	line-height:0;
+}
+
+
+/* font setting ------------------------------------------ */
+.min	{ font-family:"ＭＳ Ｐ明朝","MS PMincho";}
+.got	{ font-family:"メイリオ","Meiryo","ＭＳ Ｐゴシック","MS PGOTHIC",sans-serif;}
+.fsize_lll	{ font-size:275%;}
+.fsize_ll	{ font-size:170%;}
+.fsize_l	{ font-size:130%;}
+.fsize_s	{ font-size:95%;}
+.fsize_ss	{ font-size:85%;}

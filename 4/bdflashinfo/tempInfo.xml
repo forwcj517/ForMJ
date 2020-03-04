@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+  <id>999a_blanksite</id>
+  <title>ブランクサイト</title>
+  <desc>何もデザインされていない空のサイトです。</desc>
+  <pagelist>
+  	<page><title>なし</title><desc>空のページです。</desc></page>
+    <page><title>なし</title><desc>空のページです。</desc></page>
+  </pagelist>
+  <preview>
+  <url>http://www.digitalstage.jp/go/bind7/templates/preset_prev/999.html</url>
+</preview>
+</info>
