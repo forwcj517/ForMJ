@@ -1,0 +1,32 @@
+1. install python
+2. install virtualenv
+	pip install virtualenv
+3. create virtual environment
+	cd yourpath
+	virtualenv yourappname
+4. activate your app
+	cd yourappname
+	.\Scripts\activate
+5. install selenium for only your virtual environment
+	pip install selenium
+6. download chrome webdriver from internet into your path
+7. copy the following code to 'app.py'
+8. run file
+	python app.py
+9. you might customize and extend functionalities.
+
+
+================  app.py  ===========================
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
+
+
+driver = webdriver.Chrome(chrome_options=options, executable_path=r"c:/chromedriver.exe")
+
+driver.get("https://www.mercari.com/jp/login/")
+time.sleep(1.5)
+driver.find_element_by_xpath("//*[@id='recaptcha-anchor']").click()
+time.sleep(5)
+driver.find_element_by_xpath("//*[@id='google-login']").click()
