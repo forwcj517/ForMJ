@@ -1,0 +1,2 @@
+Tell me your quote (hours * rate) if you can do this with laravel and ReactJS.
+It has to be RESTful for working with apps.
