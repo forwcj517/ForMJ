@@ -1,0 +1,69 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+    <title>Baidu Map </title>  
+    <style type="text/css">  
+        html{height:100%}  
+        body{height:100%;margin:0px;padding:0px}  
+        #container{height:100%}  
+    </style>  
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=E4805d16520de693a3fe707cdc962045"></script>  
+</head>  
+<body>
+
+<div id="container"></div>
+
+
+<script>
+var map = new BMap.Map("container");  
+var point = new BMap.Point(116.404, 39.915);
+var point2 = new BMap.Point(116.415, 39.915);
+var point3 = new BMap.Point(116.414, 39.916);
+
+map.centerAndZoom(point, 15);
+map.enableScrollWheelZoom(true);
+//var opt={offset: new BMap.Size(150, 5),type: BMAP_NAVIGATION_CONTROL_PAN};
+//map.addControl(new BMap.NavigationControl(opt)); 
+map.addControl(new BMap.NavigationControl()); 
+map.addControl(new BMap.ScaleControl());    
+map.addControl(new BMap.OverviewMapControl());    
+map.addControl(new BMap.MapTypeControl());   
+
+
+var myIcon = new BMap.Icon("pickup_location.png", new BMap.Size(48, 48), {anchor: new BMap.Size(24, 48)});  
+var marker = new BMap.Marker(point,{icon: myIcon});  
+
+var marker2 = new BMap.Marker(point2);  
+var marker3 = new BMap.Marker(point3);  
+
+map.addOverlay(marker);  
+map.addOverlay(marker2);  
+map.addOverlay(marker3);  
+
+
+
+var opts = {    
+ width : 350,     // 信息窗口宽度    
+ height: 500,     // 信息窗口高度    
+ title : "Title ..  "  // 信息窗口标题   
+}    
+
+
+var temp = '<div> <li>xzzz</li> <li>xzzz2</li> <li>xzzz3</li><li>xzzz</li> <li>xzzz2</li> <li>xzzz3</li><li>xzzz</li> <li>xzzz2</li> <li>xzzz3</li><li>xzzz</li> <li>xzzz2</li> <li>xzzz3</li><li>xzzz</li> <li>xzzz2</li> <li>xzzz3</li><li>xzzz</li> <li>xzzz2</li> <li>xzzz3</li><li>xzzz</li> <li>xzzz2</li> <li>xzzz3</li><li>xzzz</li> <li>xzzz2</li> <li>xzzz3</li><li>xzzz</li> <li>xzzz2</li> <li>xzzz3</li>  </div>';
+                                                                        
+var infoWindow = new BMap.InfoWindow( temp, opts); // 创建信息窗口对象 
+
+marker.addEventListener("click", function(){    
+    var point = map.getCenter();
+    map.openInfoWindow(infoWindow, point);  
+});
+
+
+
+
+ 
+</script>
+</body>  
+</html>
