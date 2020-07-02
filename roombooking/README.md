@@ -18,9 +18,9 @@ This README would normally document whatever steps are necessary to get your app
 * Deployment instructions
 
 # Progressing ..
-* Updated Repo weekly.
-* Version 0.1 
+* Updated Gav-Repo.
+* Version 0.27
 * Gavin.... Reporsitory..
-* Updated Date : 23th.
+* Updated Date : July 1th.
 
 
