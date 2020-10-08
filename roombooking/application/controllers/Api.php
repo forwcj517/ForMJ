@@ -542,6 +542,21 @@ class Api extends CI_Controller {
             }                        
     }
     
+    # cron job calling ...
+    public function test(){       
+        $this->load->model('cron_model');
+        if($this->input->is_cli_request())
+        {            
+            $this->cron_model->updateAge();
+        }
+        else
+        {
+            echo "You dont have access";
+        }                 
+        $arr = array('response' => 1);
+        header('Content-Type: application/json');
+        echo json_encode($arr);        
+    }
     
     
     

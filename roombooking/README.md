@@ -16,11 +16,12 @@ This README would normally document whatever steps are necessary to get your app
 * Database configuration
 * How to run tests
 * Deployment instructions
+* Test  Api
 
 # Progressing ..
 * Updated Gav-Repo.
-* Version 0.3
+* Version 0.6
 * Gavin.... Reporsitory..
-* Updated Date : Aug 12.
+* Updated Date : OCT 8TH.
 
 
