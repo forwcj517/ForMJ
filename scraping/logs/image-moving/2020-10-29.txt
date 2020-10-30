@@ -1,0 +1,4 @@
+2020-10-29 18:01:55: EXCEPTION IN (move-images.py, LINE 54 'urllib.request.urlretrieve(link, img_dir_path)'): <urlopen error [WinError 10060] 接続済みの呼び出し先が一定の時間を過ぎても正しく応答しなかったため、接続できませんでした。または接続済みのホストが応答しなかったため、確立された接続は失敗しました。>
+2020-10-29 18:02:29: EXCEPTION IN (move-images.py, LINE 54 'urllib.request.urlretrieve(link, img_dir_path)'): <urlopen error [WinError 10060] 接続済みの呼び出し先が一定の時間を過ぎても正しく応答しなかったため、接続できませんでした。または接続済みのホストが応答しなかったため、確立された接続は失敗しました。>
+2020-10-29 18:02:50: EXCEPTION IN (move-images.py, LINE 54 'urllib.request.urlretrieve(link, img_dir_path)'): <urlopen error [WinError 10060] 接続済みの呼び出し先が一定の時間を過ぎても正しく応答しなかったため、接続できませんでした。または接続済みのホストが応答しなかったため、確立された接続は失敗しました。>
+2020-10-29 18:03:11: EXCEPTION IN (move-images.py, LINE 54 'urllib.request.urlretrieve(link, img_dir_path)'): <urlopen error [WinError 10060] 接続済みの呼び出し先が一定の時間を過ぎても正しく応答しなかったため、接続できませんでした。または接続済みのホストが応答しなかったため、確立された接続は失敗しました。>
