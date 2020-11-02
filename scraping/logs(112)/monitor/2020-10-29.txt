@@ -1,0 +1,844 @@
+2020-10-29 09:07:08: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 09:09:32: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 09:11:50: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 09:13:03: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 09:14:45: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 09:15:54: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 09:15:59: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 09:20:05: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 09:21:21: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 09:29:01: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 09:29:31: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 09:31:50: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 09:31:58: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 09:38:36: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 09:39:05: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 09:39:09: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 09:42:14: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 09:42:28: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 09:50:02: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 09:50:33: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 09:52:52: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 09:53:01: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 09:59:18: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 09:59:46: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 09:59:50: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:02:46: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:03:00: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 10:10:19: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:10:48: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 10:13:00: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:13:08: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 10:19:32: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:20:00: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 10:20:04: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:23:02: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:23:15: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 10:30:32: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:31:01: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 10:33:13: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:33:22: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 10:39:40: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:40:08: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 10:40:12: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:43:06: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:43:20: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 10:50:39: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:51:07: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 10:53:21: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 10:53:29: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 10:59:48: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:00:16: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 11:00:20: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:03:16: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:03:30: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 11:10:50: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:11:19: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 11:13:31: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:13:39: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 11:19:58: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:20:26: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 11:20:30: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:23:25: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:23:38: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 11:30:56: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:31:25: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 11:33:38: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:33:47: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 11:40:05: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:40:32: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 11:40:36: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:43:31: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:43:44: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 11:51:00: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:51:28: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 11:53:41: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 11:53:50: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 12:00:09: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:00:38: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 12:00:42: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:03:36: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:03:50: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 12:11:08: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:11:37: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 12:13:50: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:13:59: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 12:20:16: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:20:44: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 12:20:48: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:23:44: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:23:58: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 12:31:17: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:31:46: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 12:33:59: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:34:07: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 12:40:25: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:40:53: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 12:40:57: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:43:52: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:44:05: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 12:51:25: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:51:53: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 12:54:06: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 12:54:15: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 13:00:34: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:01:01: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 13:01:05: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:04:02: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:04:16: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 13:11:33: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:12:02: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 13:14:13: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:14:22: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 13:20:39: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:21:08: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 13:21:12: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:24:05: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:24:19: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 13:31:35: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:32:04: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 13:34:17: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:34:25: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 13:40:44: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:41:13: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 13:41:17: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:44:13: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:44:27: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 13:51:44: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:52:12: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 13:54:25: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 13:54:33: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 14:00:55: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:01:23: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 14:01:27: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:04:22: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:04:36: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 14:11:53: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:12:21: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 14:14:34: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:14:42: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 14:21:00: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:21:28: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 14:21:32: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:24:28: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:24:41: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 14:31:58: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:32:27: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 14:34:39: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:34:48: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 14:41:09: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:41:37: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 14:41:41: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:44:37: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:44:51: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 14:52:10: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:52:38: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 14:54:50: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 14:54:59: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 15:01:15: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:01:43: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 15:01:47: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:04:44: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:04:58: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 15:12:15: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:12:43: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 15:14:55: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:15:03: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 15:21:23: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:21:51: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 15:21:55: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:24:51: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:25:05: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 15:32:20: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:32:49: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 15:35:01: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:35:09: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 15:41:28: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:41:56: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 15:42:00: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:44:56: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:45:09: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 15:52:27: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:52:56: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 15:55:09: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 15:55:18: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 16:01:37: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:02:05: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 16:02:09: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:05:06: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:05:20: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 16:12:36: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:13:04: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 16:15:17: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:15:26: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 16:21:43: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:22:10: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 16:22:14: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:25:11: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:25:24: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 16:32:41: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:33:09: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 16:35:22: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:35:31: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 16:41:50: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:42:18: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 16:42:22: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:45:16: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:45:30: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 16:52:46: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:53:14: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 16:55:28: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 16:55:37: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 17:01:54: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:02:21: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 17:02:25: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:05:18: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:05:32: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 17:12:48: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:13:16: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 17:15:28: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:15:37: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 17:21:55: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:22:23: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 17:22:27: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:25:22: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:25:35: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 17:32:54: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:33:23: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 17:35:35: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:35:44: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 17:42:02: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:42:31: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 17:42:35: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:45:30: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:45:44: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 17:53:00: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:53:29: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 17:55:41: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 17:55:50: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 18:02:12: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:02:40: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 18:02:43: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:05:40: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:05:54: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 18:13:13: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:13:42: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 18:15:53: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:16:02: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 18:22:21: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:22:49: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 18:22:52: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:25:46: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:26:00: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 18:33:18: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:33:47: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 18:35:59: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:36:08: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 18:42:28: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:42:56: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 18:42:59: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:45:55: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:46:09: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 18:53:28: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:53:57: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 18:56:10: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 18:56:18: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 19:02:34: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:03:03: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 19:03:07: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:06:00: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:06:14: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 19:13:32: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:14:00: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 19:16:13: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:16:21: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 19:22:38: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:23:05: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 19:23:09: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:26:07: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:26:21: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 19:33:38: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:34:06: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 19:36:19: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:36:27: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 19:42:48: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:43:16: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 19:43:20: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:46:15: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:46:29: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 19:53:51: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:54:19: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 19:56:31: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 19:56:40: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 20:02:56: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:03:24: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 20:03:28: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:06:27: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:06:40: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 20:13:57: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:14:25: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 20:16:40: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:16:48: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 20:23:07: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:23:35: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 20:23:39: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:26:35: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:26:49: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 20:34:07: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:34:35: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 20:36:48: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:36:57: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 20:43:16: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:43:44: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 20:43:48: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:46:43: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:46:56: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 20:54:17: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:54:45: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 20:56:58: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 20:57:06: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 21:03:24: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:03:52: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 21:03:56: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:06:51: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:07:05: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 21:14:22: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:14:50: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 21:17:03: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:17:11: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 21:23:30: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:23:58: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 21:24:02: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:26:58: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:27:12: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 21:34:27: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:34:55: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 21:37:09: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:37:18: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 21:43:35: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:44:02: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 21:44:06: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:47:01: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:47:15: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 21:54:31: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:55:00: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 21:57:12: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 21:57:20: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 22:03:38: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:04:06: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 22:04:10: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:07:06: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:07:19: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 22:14:37: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:15:06: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 22:17:20: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:17:28: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 22:23:52: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:24:20: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 22:24:24: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:27:21: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:27:35: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 22:34:54: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:35:22: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 22:37:34: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:37:42: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 22:44:00: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:44:28: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 22:44:32: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:47:26: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:47:40: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 22:54:57: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:55:26: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 22:57:39: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 22:57:47: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 23:04:07: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:04:36: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 23:04:39: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:07:33: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:07:47: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 23:15:07: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:15:36: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 23:17:48: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:17:56: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 23:24:14: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:24:42: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 23:24:46: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:27:44: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:27:57: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 23:35:16: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:35:44: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 23:37:57: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:38:06: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 23:44:22: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:44:50: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 23:44:54: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:47:49: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:48:03: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 23:55:25: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:55:53: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
+2020-10-29 23:58:07: EXCEPTION IN (monitor.py, LINE 586 'next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")'): Message: no such element: Unable to locate element: {"method":"css selector","selector":"li.pager-next li.pager-cell > a"}
+  (Session info: chrome=86.0.4240.111)
+
+2020-10-29 23:58:16: EXCEPTION IN (monitor.py, LINE 709 'recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]'): randint() missing 1 required positional argument: 'b'
