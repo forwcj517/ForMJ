@@ -587,9 +587,10 @@ def get_mercari_contents(driver, cnx, market, brand):
 
             if next_page_btn:
                 print(" Next Page")
-                next_page_btn.click()
-                time.sleep(5)
-                objects = driver.find_elements_by_class_name(mercariSettings['itemClass'])
+                break
+                #next_page_btn.click()
+                #time.sleep(5)
+                #objects = driver.find_elements_by_class_name(mercariSettings['itemClass'])
             else:
                 break
         except Exception as e:
@@ -706,7 +707,7 @@ def handle_new_items(driver, cnx, array, market, brand):
                         break
                 if recognized_type == '':
                     type_length = len(watch_models[recognized_model])
-                    recognized_type = watch_models[recognized_model][random.randint(type_length - 1)]
+                    recognized_type = watch_models[recognized_model][random.randint(0, type_length - 1)]
 
                 result_item = get_item_by_name(recognized_model, recognized_type)
 
