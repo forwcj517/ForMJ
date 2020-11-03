@@ -352,10 +352,13 @@ def predict_item(market, item, cnx):
             result_labels[label_pred] = result_labels[label_pred] + 1
             result_probs[label_pred] = result_probs[label_pred] + prob
 
-            text = 'Photo: %s,\nNo: %d,\nProb: %.4f\nBrand: %s\nSerial Number: %s, Model: %s\n Price: %s' % (clockItem_pred['photo'], label_pred, prob,
-                                                                                          clockItem_pred['brand'],
-                                                                                          clockItem_pred['type'], clockItem_pred['model'],
-                                                                                          clockItem_pred['price'])
+            if clockItem_pred is not None:
+                text = 'Photo: %s,\nNo: %d,\nProb: %.4f\nBrand: %s\nSerial Number: %s, Model %s: \n Price: %s' % (clockItem_pred['photo'], label_pred, prob,
+                                                                                              clockItem_pred['brand'],
+                                                                                              clockItem_pred['type'],  clockItem_pred['model'],
+                                                                                              clockItem_pred['price'])
+                #print(text)
+            
             end = timer()
             
             total_time = total_time + end - start
@@ -422,8 +425,12 @@ def insert_image_db(cnx, market, brand, item, img_file, pred_result, probability
         log_text = "Inserting image into DB"
         write_log(log_text)
         
-        stmt = "INSERT INTO images (item_id, link, path, pred_label, pred_model, pred_serial, pred_prob, pred_price, pred_img, pred_time, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())" 
-        cur.execute(stmt, [item['item_id'], img_file['link'], "/images/{0}/{1}/{2}/{3}".format(market, brand, item['item_id'], img_file['filename']), pred_result['label'], pred_result['model'], pred_result['type'], "{}".format(probability), pred_result['price'], pred_result['photo'], "{}".format(recognition_time)])
+        if pred_result is None:
+            stmt = "INSERT INTO images (item_id, link, path, pred_label, pred_model, pred_serial, pred_prob, pred_price, pred_img, pred_time, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())" 
+            cur.execute(stmt, [item['item_id'], img_file['link'], "/images/{0}/{1}/{2}/{3}".format(market, brand, item['item_id'], img_file['filename']), '', '', '', "{}".format(probability), '', '', "{}".format(recognition_time)])
+        else:
+            stmt = "INSERT INTO images (item_id, link, path, pred_label, pred_model, pred_serial, pred_prob, pred_price, pred_img, pred_time, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())" 
+            cur.execute(stmt, [item['item_id'], img_file['link'], "/images/{0}/{1}/{2}/{3}".format(market, brand, item['item_id'], img_file['filename']), pred_result['label'], pred_result['model'], pred_result['type'], "{}".format(probability), pred_result['price'], pred_result['photo'], "{}".format(recognition_time)])
         cnx.commit()
         
         log_text = "Inserting image into DB success"
@@ -460,7 +467,8 @@ def insert_recognition_db(cnx, brand, item, recognition_result, probability, ela
             "d_profit_rate_setting=%s, \n" +
             "d_profit_rate_real=%s\n" +
             "WHERE `item_id`=%s;")
-        cur.execute(stmt, [recognition_result['label'], brand, recognition_result['model'], recognition_result['type'], recognition_result['price'], recognition_result['photo'], float(probability), float(elapsed_time), result_str, float(profit_rate_setting), round(float(profit_rate_real), 8), item['item_id'] ])
+        #write_log(stmt % (recognition_result['label'], brand, recognition_result['type'], recognition_result['model'], recognition_result['price'], recognition_result['photo'], float(probability), float(elapsed_time), result_str, float(profit_rate_setting), round(float(profit_rate_real), 8), item['item_id'] ))
+        cur.execute(stmt, [recognition_result['label'], brand, recognition_result['type'], recognition_result['model'], recognition_result['price'], recognition_result['photo'], float(probability), float(elapsed_time), result_str, float(profit_rate_setting), round(float(profit_rate_real), 8), item['item_id'] ])
         cnx.commit()
         
         log_text = "Inserting recognition into DB success"
@@ -517,25 +525,6 @@ def start_mercari(browser, cnx):
 
     email    = config.mercari['email']
     password = config.mercari['password']
-
-    browser.get("https://www.mercari.com/jp/login/")
-    delay = 3 # seconds
-    try:
-        myElem = WebDriverWait(browser, delay).until(EC.presence_of_element_located((By.ID, 'recaptcha-anchor')))
-        
-        log_text = "Page is ready!"
-        write_log(log_text)
-        
-        browser.find_element_by_xpath("//*[@name='email']").send_keys(email)
-        browser.find_element_by_xpath("//*[@name='password']").send_keys(password)
-        browser.find_element_by_xpath("//*[@id='recaptcha-anchor']").click()
-        time.sleep(5)
-        browser.find_element_by_xpath("//*[class='login-submit']").click()
-        time.sleep(5)
-
-    except TimeoutException:
-        log_text = "Loading took too much time!"
-        write_log(log_text)
 
     while True:
         search_mercari(driver, cnx)
@@ -653,6 +642,7 @@ def check_items_with_db(driver, cnx, array, market, brand):
     else:
         log_text = "{} new items detected".format(str(len(array)))
         write_log(log_text)
+        
         handle_new_items(driver, cnx, new_array, market, brand)
 
 
@@ -744,7 +734,10 @@ def handle_new_items(driver, cnx, array, market, brand):
                         break
                 if recognized_type == '':
                     type_length = len(watch_models[recognized_model])
-                    recognized_type = watch_models[recognized_model][random.randint(0, type_length - 1)]
+                    if type_length == 1:
+                        recognized_type = watch_models[recognized_model][0]
+                    else:
+                        recognized_type = watch_models[recognized_model][random.randint(0, type_length - 1)]
 
                 result_item = get_item_by_name(recognized_model, recognized_type)
 
@@ -777,7 +770,7 @@ def handle_new_items(driver, cnx, array, market, brand):
                     # End log to file
                     
                     predict_result = "no_dominant_prediction"
-                    bid_flag = False
+                    bid_flg = False
                 else:
                     result_probs = img_pred_result['probs']
                     avg_prob = result_probs[max_label_idx] / result_labels[max_label_idx]
@@ -790,17 +783,20 @@ def handle_new_items(driver, cnx, array, market, brand):
                         log_text = "  average prob is less than 0.5"
                         write_log(log_text)
                         predict_result = "prob_too_low"
-                        bid_flag = False
+                        bid_flg = False
 
             item['recognition_time'] = end - start
 
-            cur = cnx.cursor(dictionary=True)
-            cur.execute("SELECT value FROM c_settings WHERE `key` = 'profit_rate'")
-            profit_rate = cur.fetchone()
-            if profit_rate is not None and profit_rate['value'] != '':
-                profit_rate = float(profit_rate['value'].strip())
-            else:
-                profit_rate = 0
+            if False:
+                cur = cnx.cursor(dictionary=True)
+                cur.execute("SELECT value FROM c_settings WHERE `key` = 'profit_rate'")
+                profit_rate = cur.fetchone()
+                if profit_rate is not None and profit_rate['value'] != '':
+                    profit_rate = float(profit_rate['value'].strip())
+                else:
+                    profit_rate = 0
+            
+            profit_rate = 0
             
             item_price = float(item['price'])
             result_price = float(result_item['price'])
@@ -813,8 +809,8 @@ def handle_new_items(driver, cnx, array, market, brand):
                 write_log(log_text)
                 
                 predict_result = "price_too_high"
-                bid_flag = False
-            else:
+                bid_flg = False
+            elif False:
                 cur.execute("SELECT value FROM c_settings WHERE `key` = 'upper_price_check'")
                 upper_price_check = cur.fetchone()
                 if upper_price_check is not None:
@@ -832,9 +828,7 @@ def handle_new_items(driver, cnx, array, market, brand):
                             write_log(log_text)
                             
                             predict_result = "price_upper_limit"
-                            bid_flag = False
-
-            insert_recognition_db(cnx, brand, item, result_item, avg_prob, item['recognition_time'], predict_result, profit_rate, profit_rate_real)
+                            bid_flg = False
 
             connected = cnx.is_connected()
             if (not connected):
@@ -853,12 +847,13 @@ def handle_new_items(driver, cnx, array, market, brand):
                     #submitbutton.click()
                     time.sleep(3)
             else:
-                bid_flag = 'disabled'
+                bid_flg = 'disabled'
 
             connected = cnx.is_connected()
             if (not connected):
                 cnx.ping(True)
             insert_item_db(cnx, item, market, brand, bid_flg)
+            insert_recognition_db(cnx, brand, item, result_item, avg_prob, item['recognition_time'], predict_result, profit_rate, profit_rate_real)
 
         log_text = "Round is over"
         write_log(log_text)
