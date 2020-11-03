@@ -302,7 +302,8 @@ def predict_img_with_model(model, img):
 
 
 def predict_item(market, item, cnx):
-    print("predicting...")
+    log_text = "predicting..."
+    write_log(log_text)
 
     try:
         image_width = 224
@@ -375,14 +376,18 @@ def print_exception():
     linecache.checkcache(filename)
     line = linecache.getline(filename, lineno, f.f_globals)
     
-    text = "{}: EXCEPTION IN ({}, LINE {} '{}'): {}\r\n".format(datetime.today().strftime('%Y-%m-%d %H:%M:%S'), filename, lineno, line.strip(), exc_obj)
+    text = "EXCEPTION IN ({}, LINE {} '{}'): {}".format(filename, lineno, line.strip(), exc_obj)
+    write_log(text)
+
+
+# log content to text file
+def write_log(text):
     print(text)
     
-    # log content to text file
     if not os.path.exists('logs/monitor'):
         os.makedirs('logs/monitor')
     f = open("logs/monitor/{}.txt".format(datetime.today().strftime('%Y-%m-%d')), "a")
-    f.write(text)
+    f.write("{0}: {1}\r\n".format(datetime.today().strftime('%Y-%m-%d %H:%M:%S'), text))
     f.close()
 
 
@@ -390,14 +395,21 @@ def insert_item_db(cnx, item, market, brand, bid_flg):
     cur = cnx.cursor()
 
     try:
+        log_text = "Inserting watch into DB"
+        write_log(log_text)
+        
         stmt = "INSERT INTO items (item_id, link, title, price, likes, brand, brand_name, seller_name, seller_link, status, shipping_charge, shipping_origin, shipping_date, detail, purchased, market_id, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())" 
         cur.execute(stmt, [item['item_id'], item['link'], item['title'], item['price'], item['likes'], brand, aBrandWatch[brand], item['seller_name'], item['seller_link'], item['status'], item['shipping_charge'], item['shipping_origin'], item['shipping_date'], item['detail'], "{}".format(bid_flg), market])
         cnx.commit()
-        print("db commit")   
+        
+        log_text = "Inserting watch into DB success"
+        write_log(log_text)
     except:
         cnx.rollback()
         print_exception()
-        print("db rollback")
+        
+        log_text = "Inserting watch into DB failed"
+        write_log(log_text)
         raise
 
     cur.close()
@@ -407,13 +419,22 @@ def insert_image_db(cnx, market, brand, item, img_file, pred_result, probability
     cur = cnx.cursor()
 
     try:
+        log_text = "Inserting image into DB"
+        write_log(log_text)
+        
         stmt = "INSERT INTO images (item_id, link, path, pred_label, pred_model, pred_serial, pred_prob, pred_price, pred_img, pred_time, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())" 
         cur.execute(stmt, [item['item_id'], img_file['link'], "/images/{0}/{1}/{2}/{3}".format(market, brand, item['item_id'], img_file['filename']), pred_result['label'], pred_result['model'], pred_result['type'], "{}".format(probability), pred_result['price'], pred_result['photo'], "{}".format(recognition_time)])
         cnx.commit()
+        
+        log_text = "Inserting image into DB success"
+        write_log(log_text)
     except:
         cnx.rollback()
         print_exception()
-        print("db rollback")
+        
+        log_text = "Inserting image into DB failed"
+        write_log(log_text)
+        
         raise
 
     cur.close()
@@ -423,6 +444,9 @@ def insert_recognition_db(cnx, brand, item, recognition_result, probability, ela
     cur = cnx.cursor()
 
     try:
+        log_text = "Inserting recognition into DB"
+        write_log(log_text)
+        
         stmt = ("UPDATE items SET \n" +
             "d_label=%s, \n" +
             "d_brand=%s, \n" +
@@ -438,39 +462,35 @@ def insert_recognition_db(cnx, brand, item, recognition_result, probability, ela
             "WHERE `item_id`=%s;")
         cur.execute(stmt, [recognition_result['label'], brand, recognition_result['model'], recognition_result['type'], recognition_result['price'], recognition_result['photo'], float(probability), float(elapsed_time), result_str, float(profit_rate_setting), round(float(profit_rate_real), 8), item['item_id'] ])
         cnx.commit()
+        
+        log_text = "Inserting recognition into DB success"
+        write_log(log_text)
     except:
         cnx.rollback()
-        print("db rollback")
+        print_exception()
+        
+        log_text = "Inserting recognition into DB failed"
+        write_log(log_text)
+        
         raise
 
     cur.close()
-
-
-def update_item_db(cnx, item, market, brand, bid_flg):
-    cur = cnx.cursor()
-    try:
-        stmt = "INSERT INTO items (item_id, link, title, price, likes, brand, brand_name, seller_name, seller_link, status, shipping_charge, shipping_origin, shipping_date, detail, purchased, market_id, created_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, NOW())" 
-        cur.execute(stmt, [item['item_id'], item['link'], item['title'], item['price'], item['likes'], brand, aBrandWatch[brand], item['seller_name'], item['seller_link'], item['status'], item['shipping_charge'], item['shipping_origin'], item['shipping_date'], item['detail'], str(bid_flg), market])
-        cnx.commit()
-        print("db update")
-    except:
-        cnx.rollback()
-        print("rollback")
-        raise
-
-    cur.close()
-
-
-import random
 
 
 def download_file(path, link, img_file_name):
     #urllib.request.urlretrieve(link, path + "\{0}".format(img_file_name))
     if os.path.exists(path + "\{0}".format(img_file_name)):
-        print("Already exists...")
+        log_text = "Already exists... {}".format(link)
+        write_log(log_text)
     else:
-        print("downloading: " + link)
+        log_text = "downloading: {}".format(link)
+        write_log(log_text)
+        
         urllib.request.urlretrieve(link, path + "\{0}".format(img_file_name))
+        
+        log_text = "downloading success & sleeping 3 seconds"
+        write_log(log_text)
+        
         time.sleep(3)
 
 
@@ -502,7 +522,10 @@ def start_mercari(browser, cnx):
     delay = 3 # seconds
     try:
         myElem = WebDriverWait(browser, delay).until(EC.presence_of_element_located((By.ID, 'recaptcha-anchor')))
-        print ("Page is ready!")
+        
+        log_text = "Page is ready!"
+        write_log(log_text)
+        
         browser.find_element_by_xpath("//*[@name='email']").send_keys(email)
         browser.find_element_by_xpath("//*[@name='password']").send_keys(password)
         browser.find_element_by_xpath("//*[@id='recaptcha-anchor']").click()
@@ -511,11 +534,13 @@ def start_mercari(browser, cnx):
         time.sleep(5)
 
     except TimeoutException:
-        print ("Loading took too much time!")
+        log_text = "Loading took too much time!"
+        write_log(log_text)
 
     while True:
         search_mercari(driver, cnx)
-        print("--- Sleeping 60 seconds ---")
+        log_text = "------------------------------ Sleeping 60 seconds -----------------------------------"
+        write_log(log_text)
         time.sleep(60)
 
 
@@ -528,7 +553,8 @@ def get_mercari_contents(driver, cnx, market, brand):
     # l-container
     objects = driver.find_elements_by_class_name(mercariSettings['itemClass'])
 
-    print("market:" + str(market) + " brand:" + str(brand) + " start")
+    log_text = ">>>>>>>>>>>>>>>> market: {0} brand: {1} start >>>>>>>>>>>>>>>>>>>>".format(str(market), str(brand))
+    write_log(log_text)
     watches = []
 
     count = 0
@@ -536,7 +562,11 @@ def get_mercari_contents(driver, cnx, market, brand):
         for obj in objects:
             try:
                 count = count + 1
-                print("  count: " + str(count))
+
+                # log
+                log_text = "  count: {}".format(str(count))
+                write_log(log_text)
+
                 obj2 = obj.find_elements_by_tag_name("a")
                 confirm_href = obj2[0].get_attribute("href")
                 #print(confirm_href)
@@ -586,7 +616,8 @@ def get_mercari_contents(driver, cnx, market, brand):
             next_page_btn = driver.find_element_by_css_selector("li.pager-next li.pager-cell > a")
 
             if next_page_btn:
-                print(" Next Page")
+                log_text = " >>>>>>>>>>>>>>>>>>>>>> Next Page"
+                write_log(log_text)
                 break
                 #next_page_btn.click()
                 #time.sleep(5)
@@ -610,7 +641,6 @@ def check_items_with_db(driver, cnx, array, market, brand):
         try:
             cur.execute(stmt, [item['item_id']])
         except Exception as e:
-            print( item )
             raise errors.InternalError()
         obj = cur.fetchone()
         
@@ -618,9 +648,11 @@ def check_items_with_db(driver, cnx, array, market, brand):
             new_array.append(item)
         
     if len(new_array) == 0:
-        print("No new items!!!")
+        log_text = "No new items!!!"
+        write_log(log_text)
     else:
-        print(str(len(array)) + " new items detected")
+        log_text = "{} new items detected".format(str(len(array)))
+        write_log(log_text)
         handle_new_items(driver, cnx, new_array, market, brand)
 
 
@@ -628,22 +660,27 @@ def handle_new_items(driver, cnx, array, market, brand):
     try:
         while len(array):
             item = array.pop()
-            print("Watch: " + item['item_id'] + " started")
+
+            log_text = "Watch: {} started".format(item['item_id'])
+            write_log(log_text)
+
             img_path = "FlaskWeb\images\{0}\{1}\{2}".format(market, brand, item['item_id'])
             if not os.path.exists(img_path):
                 os.mkdir(img_path)
 
             item_link = "https://www.mercari.com/jp/items/{0}".format(item['item_id'])
-            
             item['link'] = item_link
             
             driver.get(item_link)
             delay = 5 # seconds
             try:
                 myElem = WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.CLASS_NAME, 'item-box-container')))
-                print ("Page loaded")
+                
+                log_text = "Page loaded"
+                write_log(log_text)
             except TimeoutException:
-                print ("Loading took too much time!")
+                log_text = "Loading took too much time!"
+                write_log(log_text)
 
             item['seller_name']     = ''
             item['seller_link']     = ''
@@ -714,7 +751,8 @@ def handle_new_items(driver, cnx, array, market, brand):
                 if result_item is None:
                     image_mode = True
                 else:
-                    print(" Text Recognition success")
+                    log_text = " Text Recognition success"
+                    write_log(log_text)
                     predict_result = "text_success"
                     for file in item['images']:
                         insert_image_db(cnx, market, item['brand'], item, file, result_item, 1, 0)
@@ -733,17 +771,24 @@ def handle_new_items(driver, cnx, array, market, brand):
                 # at least two prediction must be same
                 #if result_labels[max_label_idx] < len(item['images']) * 0.3:
                 if result_labels[max_label_idx] < 2:
-                    print("  no dominant prediction")
+                    # log to file
+                    log_text = "  no dominant prediction"
+                    write_log(log_text)
+                    # End log to file
+                    
                     predict_result = "no_dominant_prediction"
                     bid_flag = False
                 else:
                     result_probs = img_pred_result['probs']
                     avg_prob = result_probs[max_label_idx] / result_labels[max_label_idx]
-                    print("  max average prob: {0}".format(avg_prob))
+                    
+                    log_text = "  max average prob: {0}".format(avg_prob)
+                    write_log(log_text)
                     
                     # average prob for the most frequent prediction must be over 0.5
                     if avg_prob < 0.5:
-                        print("  average prob is less than 0.5")
+                        log_text = "  average prob is less than 0.5"
+                        write_log(log_text)
                         predict_result = "prob_too_low"
                         bid_flag = False
 
@@ -764,7 +809,9 @@ def handle_new_items(driver, cnx, array, market, brand):
 
             # price must be lower than the limit
             if (result_price - item_price) / result_price <= profit_rate / 100 :
-                print("  Price is too high")
+                log_text = "  Price is too high"
+                write_log(log_text)
+                
                 predict_result = "price_too_high"
                 bid_flag = False
             else:
@@ -781,7 +828,9 @@ def handle_new_items(driver, cnx, array, market, brand):
 
                         # price must be lower than the upper_price
                         if item_price > upper_price:
-                            print("  Price is higher than upper limit")
+                            log_text = "  Price is higher than upper limit"
+                            write_log(log_text)
+                            
                             predict_result = "price_upper_limit"
                             bid_flag = False
 
@@ -796,7 +845,9 @@ def handle_new_items(driver, cnx, array, market, brand):
             status = cursor.fetchone()
             if status is not None and status['value'] == '1':
                 if bid_flg:
-                    print("bid")
+                    log_text = "bid"
+                    write_log(log_text)
+                    
                     #submitbutton = driver.find_element_by_class_name("item-buy-btn")
                     #submitbutton = driver.find_element_by_link_text("購入画面に進む")
                     #submitbutton.click()
@@ -809,7 +860,8 @@ def handle_new_items(driver, cnx, array, market, brand):
                 cnx.ping(True)
             insert_item_db(cnx, item, market, brand, bid_flg)
 
-        print("Round is over")
+        log_text = "Round is over"
+        write_log(log_text)
         
     except Exception as e:
         print_exception()
