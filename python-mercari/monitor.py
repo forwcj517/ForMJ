@@ -526,6 +526,25 @@ def start_mercari(browser, cnx):
     email    = config.mercari['email']
     password = config.mercari['password']
 
+    browser.get("https://www.mercari.com/jp/login/")
+    delay = 3 # seconds
+    try:
+        myElem = WebDriverWait(browser, delay).until(EC.presence_of_element_located((By.ID, 'recaptcha-anchor')))
+        
+        log_text = "Page is ready!"
+        write_log(log_text)
+        
+        browser.find_element_by_xpath("//*[@name='email']").send_keys(email)
+        browser.find_element_by_xpath("//*[@name='password']").send_keys(password)
+        browser.find_element_by_xpath("//*[@id='recaptcha-anchor']").click()
+        time.sleep(5)
+        browser.find_element_by_xpath("//*[class='login-submit']").click()
+        time.sleep(5)
+
+    except TimeoutException:
+        log_text = "Loading took too much time!"
+        write_log(log_text)
+
     while True:
         search_mercari(driver, cnx)
         log_text = "------------------------------ Sleeping 60 seconds -----------------------------------"
