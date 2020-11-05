@@ -1,0 +1,118 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1>
+            時計情報
+          </h1>
+          <ol class="breadcrumb">
+            <li><a href="/"><i class="fa fa-dashboard"></i> ホーム</a></li>
+            <li><a href="/watches"><i class="fa fa-th"></i> 時計情報</a></li>
+            <li class="active">{{ data['title'] }}</li>
+          </ol>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+          <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">{{ data['title'] }}</h3>
+            </div><!-- /.box-header -->
+            <div class="box-body">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <tbody>
+                      <tr>
+                        <th style="width:50%">ブランド:</th>
+                        <td>{{ data['brand_name'] }}</td>
+                      </tr>
+                      <tr>
+                        <th>モデル</th>
+                        <td>{{ data['d_model'] }}</td>
+                      </tr>
+                      <tr>
+                        <th>型番:</th>
+                        <td>{{ data['d_serial'] }}</td>
+                      </tr>
+                      <tr>
+                        <th>通し番号:</th>
+                        <td>{{ data['d_label'] }}</td>
+                      </tr>
+                      <tr>
+                        <th>希望金額:</th>
+                        <td>{{ '{:20,.0f}'.format(data['d_price']|float) }}円</td>
+                      </tr>
+                      <tr>
+                        <th>出品金額:</th>
+                        <td>{{ '{:20,.0f}'.format(data['price']|float) }}円</td>
+                      </tr>
+                      <tr>
+                        <th>差額金額（希望金額-出品金額）:</th>
+                        <td>{{ '{:20,.0f}'.format(data['d_price']|float - data['price']|float) }}円</td>
+                      </tr>
+                      <tr>
+                        <th>利益率:</th>
+                        <td>{{ '{:20,.0f}'.format(data['d_profit_rate_real']|float) }}％</td>
+                      </tr>
+                      <tr>
+                        <th>利益率 (設定):</th>
+                        <td>{{ '{:20,.0f}'.format(data['d_profit_rate_setting']|float) }}％</td>
+                      </tr>
+                      <tr>
+                        <th>認識時間:</th>
+                        <td>{{ '{:20,.5f}'.format(data['d_time']|float) }}s</td>
+                      </tr>
+                      <tr>
+                        <th>購入:</th>
+                        <td>
+                          {% if data['purchased'] == 'False' or data['purchased'] == 'None' %}
+                          <span class="badge bg-danger">無し</span>
+                          {% else %}
+                          <span class="badge bg-green">済み</span>
+                          {% endif %}
+                          <p>{{ data['d_result'] }}</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2"><div style="white-space:pre-wrap;">{{ data['detail'] }}</div></td>
+                      </tr>
+                      </tbody></table>
+                  </div>
+                </div>
+                <div class="col-sm-8">
+                  <table id="example2" class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                      <th>画像</th>
+                      <th>認識時間</th>
+                      <th>認識ラベルー</th>
+                      <th>確率</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for img in images %}
+                    <tr>
+                      <td>
+                        <img class="img-responsive" src="{{ img['path'] }}" style="max-width: 250px;"/>
+                      </td>
+                      <td>{{ '{:20,.6f}'.format(img['pred_time']|float) }}s</td>
+                      <td>{{ img['pred_label'] }}</td>
+                      <td>{{ '{:20,.2f}'.format(img['pred_prob']|float * 100) }}%</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!-- /.content -->
+      </div><!-- /.content-wrapper -->
+
+{% endblock %}
