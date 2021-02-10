@@ -64,10 +64,11 @@ def login():
             body_class=u'login-page')
     else:
         id = request.form['id']
+        pwd = request.form['password']
 
         db = mysql.connector.connect(**config.mysql)
         cursor = db.cursor()
-        cursor.execute("SELECT * FROM users WHERE username = '" + id + "'")
+        cursor.execute("SELECT * FROM `users` WHERE `username` = '" + id + "' AND `password` = PASSWORD('" + pwd + "')")
         data = cursor.fetchone()
         cursor.close()
         db.close()
@@ -199,20 +200,8 @@ def detail(id):
     cursor.execute("SELECT * FROM items WHERE item_id='" + id + "'")
     data = cursor.fetchone()
     
-    cursor.execute("SELECT * FROM recognitions WHERE item_id='" + id + "'")
-    recognition = cursor.fetchone()
-    
     cursor.execute("SELECT * FROM images WHERE item_id='" + id + "'")
     images = cursor.fetchall()
-    
-    if recognition is None:
-        first_img = images[0]
-        total_time = 0
-        
-        for img in images:
-            total_time = total_time + float(img['pred_time'])
-        
-        recognition = {'model': first_img['pred_model'], 'serial': first_img['pred_serial'], 'price': first_img['pred_price'], 'profit_rate_real': '-', 'time': total_time}
     
     cursor.close()
     db.close()
@@ -222,7 +211,6 @@ def detail(id):
         title=u'時計情報',
         body_class=u'skin-blue sidebar-mini',
         data=data,
-        recognition=recognition,
         images=images,
         active_menu=2,
         message=mes)
@@ -240,9 +228,6 @@ def debug(id):
     cursor.execute("SELECT * FROM items WHERE item_id='" + id + "'")
     data = cursor.fetchone()
     
-    cursor.execute("SELECT * FROM recognitions WHERE item_id='" + id + "'")
-    recognition = cursor.fetchone()
-    
     cursor.execute("SELECT * FROM images WHERE item_id='" + id + "'")
     images = cursor.fetchall()
     
@@ -254,7 +239,6 @@ def debug(id):
         title=u'時計情報',
         body_class=u'skin-blue sidebar-mini',
         data=data,
-        recognition=recognition,
         images=images,
         active_menu=2,
         message=mes)

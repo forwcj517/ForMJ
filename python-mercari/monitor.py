@@ -225,6 +225,7 @@ stop_words = [
     '入れ',
     '時計入れ',
     'カード入れ',
+    'スプーン',
     'コップ',
     'CUP',
     'ペン',
@@ -467,8 +468,8 @@ def insert_recognition_db(cnx, brand, item, recognition_result, probability, ela
             "d_profit_rate_setting=%s, \n" +
             "d_profit_rate_real=%s\n" +
             "WHERE `item_id`=%s;")
-        #write_log(stmt % (recognition_result['label'], brand, recognition_result['type'], recognition_result['model'], recognition_result['price'], recognition_result['photo'], float(probability), float(elapsed_time), result_str, float(profit_rate_setting), round(float(profit_rate_real), 8), item['item_id'] ))
-        cur.execute(stmt, [recognition_result['label'], brand, recognition_result['type'], recognition_result['model'], recognition_result['price'], recognition_result['photo'], float(probability), float(elapsed_time), result_str, float(profit_rate_setting), round(float(profit_rate_real), 8), item['item_id'] ])
+        #write_log(stmt % (recognition_result['label'], brand, recognition_result['model'], recognition_result['type'], recognition_result['price'], recognition_result['photo'], float(probability), float(elapsed_time), result_str, float(profit_rate_setting), round(float(profit_rate_real), 8), item['item_id'] ))
+        cur.execute(stmt, [recognition_result['label'], brand, recognition_result['model'], recognition_result['type'], recognition_result['price'], recognition_result['photo'], float(probability), float(elapsed_time), result_str, float(profit_rate_setting), round(float(profit_rate_real), 8), item['item_id'] ])
         cnx.commit()
         
         log_text = "Inserting recognition into DB success"
@@ -520,31 +521,32 @@ def login_google(driver):
     time.sleep(5)
 
 
-def start_mercari(browser, cnx):
-    #login_google(browser)
-
+def login_mercari(browser, cnx):
     email    = config.mercari['email']
     password = config.mercari['password']
 
-    browser.get("https://www.mercari.com/jp/login/")
-    delay = 3 # seconds
-    try:
-        myElem = WebDriverWait(browser, delay).until(EC.presence_of_element_located((By.ID, 'recaptcha-anchor')))
-        
-        log_text = "Page is ready!"
-        write_log(log_text)
-        
-        browser.find_element_by_xpath("//*[@name='email']").send_keys(email)
-        browser.find_element_by_xpath("//*[@name='password']").send_keys(password)
-        browser.find_element_by_xpath("//*[@id='recaptcha-anchor']").click()
-        time.sleep(5)
-        browser.find_element_by_xpath("//*[class='login-submit']").click()
-        time.sleep(5)
+    browser.get("http://localhost:8888/jp/login/")
+    log_text = "Login Page is ready!"
+    write_log(log_text)
+    
+    while True:
+        try:
+            profilebutton = driver.find_element_by_class_name("sp-header-user-profile")
+            if profilebutton:
+                break;
+            else:
+                log_text="Not logged in yet"
+                write_log(log_text)
+                time.sleep(1)
+        except Exception as e:
+            time.sleep(1)
+    
+    log_text = "Login Success!"
+    write_log(log_text)
+    start_mercari(browser, cnx)
 
-    except TimeoutException:
-        log_text = "Loading took too much time!"
-        write_log(log_text)
 
+def start_mercari(browser, cnx):
     while True:
         search_mercari(driver, cnx)
         log_text = "------------------------------ Sleeping 60 seconds -----------------------------------"
@@ -601,6 +603,8 @@ def get_mercari_contents(driver, cnx, market, brand):
                 obj5 = obj.find_element_by_class_name('items-box-num').find_elements_by_tag_name('span')
                 if obj5:
                     likes = obj5[0].text
+                if likes is "":
+                    likes = "0"
                 #print("likes:" + likes)
 
                 posconfirm_href = confirm_href.find("?_s=")
@@ -724,6 +728,7 @@ def handle_new_items(driver, cnx, array, market, brand):
                 download_file(img_path, img_link, img_file_name)
 
             bid_flg = True
+            image_mode = True
             predict_result = "success"
 
             # Text recognition
@@ -744,9 +749,7 @@ def handle_new_items(driver, cnx, array, market, brand):
                     #print(" Model is " + recognized_model + " (from text recognition)")
                     image_mode = False
                     break
-            if recognized_model == '':
-                image_mode = True
-            else:
+            if recognized_model:
                 for watch_type in watch_models[recognized_model]:
                     if my_title.find(watch_type) > -1 or my_detail.find(watch_type) > -1:
                         recognized_type = watch_type
@@ -765,6 +768,7 @@ def handle_new_items(driver, cnx, array, market, brand):
                 else:
                     log_text = " Text Recognition success"
                     write_log(log_text)
+                    result_item['type'] = recognized_type
                     predict_result = "text_success"
                     for file in item['images']:
                         insert_image_db(cnx, market, item['brand'], item, file, result_item, 1, 0)
@@ -823,11 +827,17 @@ def handle_new_items(driver, cnx, array, market, brand):
             profit_rate_real = (result_price - item_price) * 100 / result_price
 
             # price must be lower than the limit
-            if (result_price - item_price) / result_price <= profit_rate / 100 :
+            if profit_rate_real <= profit_rate:
                 log_text = "  Price is too high"
                 write_log(log_text)
                 
                 predict_result = "price_too_high"
+                bid_flg = False
+            elif result_item['type'] == '':
+                log_text = "  No serial"
+                write_log(log_text)
+                
+                predict_result = "no_serial"
                 bid_flg = False
             elif False:
                 cur.execute("SELECT value FROM c_settings WHERE `key` = 'upper_price_check'")
@@ -861,10 +871,8 @@ def handle_new_items(driver, cnx, array, market, brand):
                     log_text = "bid"
                     write_log(log_text)
                     
-                    #submitbutton = driver.find_element_by_class_name("item-buy-btn")
-                    #submitbutton = driver.find_element_by_link_text("購入画面に進む")
-                    #submitbutton.click()
-                    time.sleep(3)
+                    # process purchase
+                    bid_flg = buy_item(driver)
             else:
                 bid_flg = 'disabled'
 
@@ -879,6 +887,53 @@ def handle_new_items(driver, cnx, array, market, brand):
         
     except Exception as e:
         print_exception()
+
+
+def buy_item(driver):
+    trials = 0;
+    while True:
+        trials += 1
+        if trials > 3:
+            return False
+        try:
+            submit_button = driver.find_element(By.XPATH, "//a[@class='item-buy-btn']")
+            #submitbutton = driver.find_element_by_link_text("購入画面に進む")
+            if submit_button:
+                driver.get(submit_button.get_attribute("href"))
+                break
+            else:
+                write_log('purchase button cannot be found. trying again...')
+        except Exception as e:
+            print_exception()
+            time.sleep(1)
+    time.sleep(3)
+    
+    trials = 0;
+    while True:
+        trials += 1
+        if trials > 3:
+            return False
+        try:
+            payment_type = driver.find_element_by_xpath("//*[@data-test='cvs-atm-text']")
+            if payment_type:
+                payment_type.click()
+                write_log('payment type has been set to Convini/ATM')
+            else:
+                write_log('Convini/ATM setting cannot be found. trying again...')
+            
+            submit_button = driver.find_element_by_xpath("//*[@data-test='transaction-buy-purchase']")
+            if submit_button:
+                submit_button.click()
+                write_log('purchase complete')
+            else:
+                write_log('purchase failed. trying again...')
+            break
+        except Exception as e:
+            write_log('no element, trying again 2')
+            print_exception()
+            time.sleep(1)
+
+    return True
 
 
 def search_mercari(browser, cnx):
@@ -898,7 +953,7 @@ if __name__ == '__main__':
 
     clock_items = get_clock_items()
 
-    start_mercari(driver, cnx) 
+    login_mercari(driver, cnx) 
 
 
 
