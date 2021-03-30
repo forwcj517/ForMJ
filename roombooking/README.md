@@ -20,8 +20,8 @@ This README would normally document whatever steps are necessary to get your app
 
 # Progressing ..
 * Updated Gav-Repo.
-* Version 0.6
+* Version 0.5
 * Gavin.... Reporsitory..
-* Updated Date : OCT 8TH.
+* Updated Date :  Mar 30.
 
 
