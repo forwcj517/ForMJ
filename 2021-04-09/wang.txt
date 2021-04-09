@@ -1,0 +1,7 @@
+1. Th. Stitz, "pilot-based synchronization and equalization in filter bank multicarrier communications", EURASIP J. Advanced Signal Processing, 2010
+
+2. Yi Yang, "An Improved Channel Estimation Method based on the Correlation of Preambles in FBMC/OQAM Systems", AEU Inter.J. of Electronics and Communications, 2018
+
+3. Mingqian Liu, "Non-data aided joint Estimation of Symbol Timing offset and Carrier Frequency offset for OFDM/OQAM Systems", AEU Inter. J. of Electronics and Communications, 2018
+
+4. Jianping Wang, "Non-data aided Timing and Carrier Frequency offset Estimation based on Central Symmetry of ZC sequences in OFDM/OQAM Systems", Wireless Personal Communications, Vol 90
