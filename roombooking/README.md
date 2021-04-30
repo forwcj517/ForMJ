@@ -25,5 +25,6 @@ This README would normally document whatever steps are necessary to get your app
 * Version 0.3
 * Gavin.... Reporsitory..
 * Updated Date :  Apr 29.
+* Confirmed: Apr 30. (Total: 2.6Kbytes)
 
 
