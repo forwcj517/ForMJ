@@ -21,11 +21,9 @@ This README would normally document whatever steps are necessary to get your app
 * crm.xtremeappliancecove.com Api
 
 # Progressing ..
-* Updated Gav-Repo.
-* Version 0.3
-* Gavin.... Reporsitory..
-* Updated Date :  Apr 29.
-* Confirmed: Apr 30. (Total: 2.6Kbytes)
+* Updated Z-Repo.
+* Version 0.8
+* New Repo .... Reporsitory..
+* Updated Date :  June 22.
 
-* New Addr: zhenzhuiming@outlook.com
-* 2021-06-19
+* Pushed to New Repo
